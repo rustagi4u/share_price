@@ -12,7 +12,6 @@ def return_max():
         values = r
         
         for i in range(2, len(values)):
-    #        data_dict[r[0]+" "+r[1]] = values[2:]
             complete_data[header[i]][r[0]+" "+r[1]] = values[i]
     
     max_values ={}
@@ -21,8 +20,6 @@ def return_max():
         max_values[key] = max_value
      
     return max_values
-#    data_dict = {}
-#    print (r[0], r[1], max_value)
 
 if __name__ == "__main__":
     print return_max()
